@@ -1,0 +1,793 @@
+@font-face {
+    font-family:"helvetica";
+    src:url("../Font/HelveticaNeueLTPro-Bd.otf");
+    src:url("../Font/HelveticaNeueLTPro-Lt.otf");
+    src:url("../Font/HelveticaNeueLTPro-Md.otf");
+    src:url("../Font/HelveticaNeueLTPro-Roman.otf");
+    src:url("../Font/HelveticaNeueLTPro-Th.otf");
+    src:url("../Font/NeueBold.otf");
+}
+body {
+    padding:0px;
+    margin:0px;
+    font-family:"helvetica";
+}
+* {
+    box-sizing: border-box;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type:none;
+    background-color:#2969b0;
+    position:fixed;
+    width:100%;
+    top:0px;
+    z-index: 999;
+}
+ul li a {
+    color:white;
+}
+#aracizgi {
+    width:100%;
+    height:75px;
+    background-color:#2969b0;
+}
+li {
+    float:left;
+}
+li a {
+    display: block;
+    color:white;
+    font-weight:bolder;
+    padding: 18px 20px;
+    font-size:15px;
+    text-decoration:none;
+    text-align:center;
+}
+li a:hover:not(.active) {
+    background-color: dodgerblue;
+    -webkit-transition: all .25s ease-in;
+    }
+ .active {
+    background-color:red;
+}
+   .section2 {
+    background-color: white;
+    width:100%;
+    height:470px;
+}
+#section1text {
+    font-weight:bolder;
+    text-align:center;
+    font-size:50px;
+    color:white;
+    position:relative;
+    top:200px;
+    margin-top:0.4px;
+}
+div.section1 {
+    background-image: url('../Images/arkaplan.jpg');
+    width:100%;
+    height:470px;
+}
+div code {
+    font-size:17px;
+    padding:10px;
+    color:black;
+}
+div div a {
+    text-decoration:none;
+}
+div a {
+    color:black;
+}
+div a[title="Devam"] {
+    color:purple;
+}
+div.section3 h1:first-child {
+    text-align:center;
+}
+div#box1 {
+    width:300px;
+    height:400px;
+    background-color:darkorange;
+    float:left;
+    border:2px solid black;
+}
+.hvr-grow-shadow {
+    border:15px double black;
+    position:relative;
+    margin-left:170px;
+    bottom:140px;
+    margin-top:35px;
+    top:-75px;
+}
+.hvr-grow-shadow:hover {
+    background-color:yellow;
+}
+.section3 {
+    width:100%;
+    height:770px;
+    background-color:#808080;
+}
+.favoriteupload {
+    color:white;
+    font-size:30px;
+    position:relative;
+    top:17px;
+    text-align:center;
+}
+#section3 {
+    width:100%;
+    height:75px;
+    background-color:white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    top:585px;
+    margin-left:400px;
+    position:absolute;
+    font-size:15px;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    -webkit-box-shadow: 6px 8px 21px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 8px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 8px 21px 0px rgba(0,0,0,0.75);
+    -webkit-transition: all .30s ease-in;
+    
+}
+
+.container {
+    padding: 2px 16px;
+}
+div.section4 {
+    box-sizing: border-box;
+    margin-bottom:50px;
+}
+
+.bars {
+  width: 90%;
+  background-color: #ddd;
+  margin-left:100px;
+  border:1.25px solid black;
+  border-radius:20px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  border-radius:20px;
+}
+
+.html {
+    width: 100%;
+    background-color: #4CAF50;
+}
+.css {
+    width: 90%;
+    background-color: #2196F3;
+}
+.js {
+    width: 30%;
+    background-color: #f44336;
+}
+.php {
+    width: 35%;
+    background-color: #808080;
+}
+footer {
+    background-color:#2969b0;
+    height:62px;
+    width:100%;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
+.icon-bar {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  float:right;
+  font-size: 20px;
+  border-radius:10%;
+  border:2px solid black;
+  margin-left:10px;
+  position:relative;
+  top:8px;
+  border-radius:50%;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  width:20px;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+h1.HakkimdaBaslik {
+    text-align:center;
+    color:black;
+}
+.icerik {
+    color:#2a2a2a;
+    font-size:15.2px;
+}
+i u {
+    color:black;
+    font-size:15px;
+}
+#headerbutton2 {
+    float:right;
+    color:white;
+    border:6px solid aqua;
+    width:300px;
+    padding:10px;
+    font-weight:bolder;
+    text-align:center;
+    font-size:25px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    text-decoration:none;
+    position:absolute;
+    top:360px;
+    left:530px;
+    -webkit-transition: all .20s ease-in;
+}
+#headerbutton {
+    color:white;
+    float:right;
+    padding:10px;
+    border:6px solid aqua;
+    width:300px;
+    font-weight:bolder;
+    text-align:center;
+    font-size:25px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    text-decoration:none;
+    position:relative;
+    top:262px;
+    right:530px;
+    -webkit-transition: all .20s ease-in;
+}
+#headerbutton:hover {
+    background-color:purple;
+    color:white;
+    -webkit-transition: all .20s ease-in;
+}
+#headerbutton2:hover {
+    background-color:purple;
+    color:white;
+    -webkit-transition: all .20s ease-in;
+}
+.section2text {
+    font-size:18px;
+    float:right;
+    position:absolute;
+    left:750px;
+    margin-top:50px;
+    color:#2a2a2a;
+}
+iframe {
+    position:relative;
+    z-index:995;
+    width:400px;
+    height:250px;
+}
+.guncelsurum {
+    color:white;
+    float:right;
+    padding:15px 30px;
+    font-weight:bold;
+    font-size:15px;
+    font-family:cursive;
+}
+@media screen and (max-width:1679px)/* Bölüm 1 */
+{
+    #headerbutton {
+        width:250px;
+        font-size:20px;
+        margin-top:12px;
+    }
+    #headerbutton2 {
+        width:250px;
+        font-size:20px;
+    }
+    div#section1text {
+        font-size:42px;
+    }
+}
+@media screen and (max-width:1627px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:220px;
+        font-size:18px;
+        margin-top:23px;
+    }
+    #headerbutton2 {
+        width:220px;
+        font-size:18px;
+        margin-top:6px;
+    }
+    div#section1text {
+        font-size:40px;
+    }
+}
+@media screen and (max-width:1575px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:200px;
+        font-size:16px;
+        margin-top:26px;
+    }
+    #headerbutton2 {
+        width:200px;
+        font-size:16px;
+        margin-top:9px;
+    }
+    div#section1text {
+        font-size:40px;
+    }
+}
+@media screen and (max-width:1534px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:180px;
+        font-size:14px;
+        margin-top:31px;
+    }
+    #headerbutton2 {
+        width:180px;
+        font-size:14px;
+        margin-top:11px;
+    }
+    div#section1text {
+        font-size:36px;
+    }
+}
+@media screen and (max-width:1490px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:150px;
+        font-size:12px;
+        margin-top:39px;
+    }
+    #headerbutton2 {
+        width:150px;
+        font-size:12px;
+        margin-top:14px;
+    }
+    div#section1text {
+        font-size:32px;
+    }
+}
+@media screen and (max-width:1420px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:120px;
+        font-size:10px;
+    }
+    #headerbutton2 {
+        width:120px;
+        font-size:10px;
+    }
+    div#section1text {
+        font-size:26px;
+    }
+}
+@media screen and (max-width:1380px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:100px;
+        font-size:8px;
+        margin-top:44px;
+    }
+    #headerbutton2 {
+        width:100px;
+        font-size:8px;
+    }
+    div#section1text {
+        font-size:23px;
+    }
+}
+@media screen and (max-width:1315px) /* Bölüm 1 */
+{
+    #headerbutton {
+        width:90px;
+        font-size:7px;
+        margin-top:49px;
+    }
+    #headerbutton2 {
+        width:90px;
+        font-size:7px;
+    }
+    div#section1text {
+        font-size:21px;
+    }
+}
+@media screen and (max-width:1679px) /* Bölüm 2 */
+{
+    .section2text {
+        font-size:17px;
+        position:absolute;
+        left:600px;
+    }
+    
+    .card {
+        width:270px;
+        position:absolute;
+        left:-100px;
+    }
+}
+@media screen and (max-width:1605px) /* Bölüm 2 */
+{
+    .section2text {
+        font-size:16px;
+        position:absolute;
+        left:560px;
+    }
+    
+    .card {
+        width:240px;
+        position:absolute;
+        left:-100px;
+    }
+}
+@media screen and (max-width:1526px) /* Bölüm 2 */
+{
+    .section2text {
+        font-size:15px;
+        position:absolute;
+        left:560px;
+    }
+    
+    .card {
+        width:210px;
+        position:absolute;
+        left:-80px;
+    }
+}
+@media screen and (max-width:1450px) /* Bölüm 2 */
+{
+    .section2text {
+        font-size:14.5px;
+        position:absolute;
+        left:500px;
+    }
+    
+    .card {
+        width:150px;
+        position:absolute;
+        left:-80px;
+    }
+    .section4 {
+        position:relative;
+        bottom:85px;
+    }
+}
+@media screen and (max-width:1297px) /* Bölüm 2 */
+{
+    .section2text {
+        font-size:13px;
+        position:absolute;
+        left:500px;
+    }
+    
+    .card {
+        width:140px;
+        position:absolute;
+        left:-50px;
+        font-size:12px;
+    }
+}
+@media screen and (max-width:1679px) /* Bölüm 3 */
+{
+    .bars {
+        width:90%;
+    }
+    #Skills {
+        font-size:27px;
+    }
+}
+@media screen and (max-width:1679px) /* Bölüm 3 */
+{
+    .bars {
+        width:90%;
+    }
+    #Skills {
+        font-size:27px;
+    }
+}
+@media screen and (max-width:1550px) /* Bölüm 3 */
+{
+    .bars {
+        width:85%;
+    }
+    #Skills {
+        font-size:25px;
+    }
+    .section4 {
+        position:relative;
+        left:50px;
+    }
+}
+@media screen and (max-width:1450px) /* Bölüm 3 */
+{
+    .bars {
+        width:80%;
+    }
+    #Skills {
+        font-size:23px;
+    }
+    .section4 {
+        position:relative;
+        left:50px;
+    }
+}
+@media screen and (max-width:1297px) /* Bölüm 3 */
+{
+    .bars {
+        width:70%;
+    }
+    #Skills {
+        font-size:20px;
+    }
+    .section4 {
+        position:relative;
+        left:100px;
+    }
+    h1#Skills {
+        margin-right:170px;
+    }
+}
+@media screen and (max-width:1679px) /* Bölüm 4 */
+{
+    iframe {
+        width:365px;
+        height:215px;
+        position:relative;
+        left:-50px;
+    }
+    .section3 {
+        height:650px;
+    }
+}
+@media screen and (max-width:1660px) /* Bölüm 4 */
+{
+    iframe {
+        width:330px;
+        height:180px;
+        position:relative;
+        left:20px;
+    }
+    .section3 {
+        height:575px;
+    }
+}
+@media screen and (max-width:1640px) /* Bölüm 4 */
+{
+    iframe {
+        width:295px;
+        height:145px;
+        position:relative;
+        top:-90px;
+        left:50px;
+    }
+    .section3 {
+        height:555px;
+    }
+}
+@media screen and (max-width:1540px) /* Bölüm 4 */
+{
+    iframe {
+        width:280px;
+        height:130px;
+        position:relative;
+        top:-120px;
+        left:70px;
+    }
+    .section3 {    
+        height:485px;
+    }
+}
+@media screen and (max-width:1500px) /* Bölüm 4 */
+{
+    iframe {
+        width:260px;
+        height:125px;
+        position:relative;
+        top:-120px;
+        left:70px;
+    }
+    .section3 {    
+        height:455px;
+    }
+}
+@media screen and (max-width:1460px) /* Bölüm 4 */
+{
+    iframe {
+        width:250px;
+        height:115px;
+        position:relative;
+        top:-120px;
+        left:25px;
+    }
+    .section3 {    
+        height:455px;
+    }
+}
+@media screen and (max-width:1413px) /* Bölüm 4 */
+{
+    iframe {
+        width:240px;
+        height:105px;
+        position:relative;
+        top:-120px;
+        left:0px;
+    }
+    .section3 {    
+        height:455px;
+    }
+}
+@media screen and (max-width:1375px) /* Bölüm 4 */
+{
+    iframe {
+        width:230px;
+        height:95px;
+        position:relative;
+        top:-120px;
+        left:20px;
+    }
+    .section3 {    
+        height:455px;
+    }
+}
+@media screen and (max-width:1325px) /* Bölüm 4 */
+{
+    iframe {
+        width:220px;
+        height:85px;
+        position:relative;
+        top:-120px;
+        left:-20px;
+    }
+    .section3 {    
+        height:435px;
+    }
+}
+@media screen and (max-width:1280px) /* Bölüm 4 */
+{
+    iframe {
+        width:210px;
+        height:90px;
+        position:relative;
+        top:-120px;
+        left:20px;
+    }
+    .section3 {    
+        height:400px;
+    }
+}
+@media screen and (max-width:1250px) /* Bölüm 4 */
+{
+    iframe {
+        width:200px;
+        height:90px;
+    }
+    .section3 {    
+        height:400px;
+    }
+}
+@media screen and (max-width:1200px) /* Bölüm 4 */
+{
+    iframe {
+        width:190px;
+        height:90px;
+    }
+    .section3 {    
+        height:400px;
+    }
+}
+.ANAcontainer {
+           width: 1000px;
+           padding:20px;
+           border-left:2px solid black;
+           border-right:2px solid black;
+           margin-left:450px;
+           background-color:#d9d9d9;
+           height:917px;
+		}
+@media screen and (max-width:1679px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:950px;
+        margin-left:360px;
+    }
+    h3.icerik {
+        font-size:15px;
+    }
+}
+@media screen and (max-width:1560px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:900px;
+        margin-left:330px;
+    }
+    h3.icerik {
+        font-size:14.8px;
+    }
+}
+@media screen and (max-width:1500px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:800px;
+        margin-left:330px;
+    }
+    h3.icerik {
+        font-size:13.8px;
+    }
+}
+@media screen and (max-width:1400px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:750px;
+        margin-left:330px;
+    }
+    h3.icerik {
+        font-size:13px;
+    }
+}
+@media screen and (max-width:1350px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:700px;
+        margin-left:330px;
+    }
+    h3.icerik {
+        font-size:12.5px;
+    }
+}
+@media screen and (max-width:1250px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:650px;
+        margin-left:280px;
+    }
+    h3.icerik {
+        font-size:11.8px;
+    }
+}
+@media screen and (max-width:1161px) /* Hakkımda Rspnsv */{
+    .ANAcontainer {
+        width:600px;
+        margin-left:280px;
+    }
+}
